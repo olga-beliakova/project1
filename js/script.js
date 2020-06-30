@@ -23,10 +23,9 @@ answers[2] = prompt('Ваш возраст', ''); */
 const user = 'Ольга';
 console.log(`Привет, ${user}`); */
 
-let numberOfFilms;
-numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?','');
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?','');
 
-let personalMovieDB = {
+const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
     actors: {},
